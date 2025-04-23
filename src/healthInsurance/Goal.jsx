@@ -1,0 +1,228 @@
+export default function Goal() {
+  return (
+    <div className="container mx-auto my-[50px]">
+      <div className="flex flex-col gap-[15px] items-center">
+        <h1 className="text-3xl font-semibold">
+          What are the Benefits of Health Insurance?
+        </h1>
+        <p className="text-xl text-gray-600 font-semibold">
+          Here are the important reasons why you must have Health insurance:
+        </p>
+        <div className="grid  grid-cols-2 laptop:grid-cols-3 gap-[20px]">
+          <div className="max-w-[400px] min-[150px] px-[15px] py-[10px] border-2 border-blue-300 rounded-2xl bg-[#F0FFFF]">
+            <div className="flex flex-col gap-[15px] items-center justify-center ">
+              <div className="flex gap-[10px] justify-center ">
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 16 16"
+                    className="w-[40px] h-[40px]"
+                  >
+                    <path
+                      d="M8 .262S6.364 3 2 3c0 9.31 6 12.594 6 12.594S14 12.31 14 3C9.636 3 8 .262 8 .262zm0 1.386c.272.312.257.42.781.795.912.654 2.362 1.19 4.153 1.391-.174 3.943-1.439 6.642-2.73 8.352-.982 1.298-1.74 1.878-2.204 2.193-.463-.315-1.222-.895-2.203-2.193-1.292-1.71-2.557-4.409-2.73-8.352 1.79-.2 3.24-.737 4.152-1.39.524-.377.51-.483.781-.796zm0 1.409c-.092.08-.073.108-.2.199-.888.637-2.15 1.066-3.581 1.346.305 3.23 1.302 5.558 2.377 6.98.656.868 1.015 1.097 1.404 1.408.39-.31.75-.54 1.406-1.408 1.075-1.422 2.072-3.749 2.377-6.978-1.432-.28-2.695-.71-3.584-1.348-.126-.09-.107-.12-.199-.2z"
+                      color="#000000"
+                      overflow="visible"
+                      fill="#89CFF0	"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-semibold ">
+                    Financial Protection
+                  </h3>
+                </div>
+              </div>
+              <div>
+                <p className="text-lg text-justify">
+                A health insurance plan ensures that you and your family are financially secure in case of unexpected medical emergencies. Health insurance coverage provides financial assistance for hospitalization, medical treatments, and other healthcare expenses, ensuring peace of mind and access to quality care when you need it the most.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="max-w-[400px] min-[150px] px-[15px] py-[10px] border-2 border-blue-300 rounded-2xl bg-[#F0FFFF]">
+            <div className="flex flex-col gap-[15px] items-center justify-center ">
+              <div className="flex gap-[10px] justify-center ">
+                <div>
+                  <svg
+                    className="w-[40px] h-[40px]"
+                    viewBox="0 0 24 24"
+                    fill="#89CFF0"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      {" "}
+                      <path d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2ZM7.63 18.15C7.63 18.56 7.29 18.9 6.88 18.9C6.47 18.9 6.13 18.56 6.13 18.15V16.08C6.13 15.67 6.47 15.33 6.88 15.33C7.29 15.33 7.63 15.67 7.63 16.08V18.15ZM12.75 18.15C12.75 18.56 12.41 18.9 12 18.9C11.59 18.9 11.25 18.56 11.25 18.15V14C11.25 13.59 11.59 13.25 12 13.25C12.41 13.25 12.75 13.59 12.75 14V18.15ZM17.87 18.15C17.87 18.56 17.53 18.9 17.12 18.9C16.71 18.9 16.37 18.56 16.37 18.15V11.93C16.37 11.52 16.71 11.18 17.12 11.18C17.53 11.18 17.87 11.52 17.87 11.93V18.15ZM17.87 8.77C17.87 9.18 17.53 9.52 17.12 9.52C16.71 9.52 16.37 9.18 16.37 8.77V7.8C13.82 10.42 10.63 12.27 7.06 13.16C7 13.18 6.94 13.18 6.88 13.18C6.54 13.18 6.24 12.95 6.15 12.61C6.05 12.21 6.29 11.8 6.7 11.7C10.07 10.86 13.07 9.09 15.45 6.59H14.2C13.79 6.59 13.45 6.25 13.45 5.84C13.45 5.43 13.79 5.09 14.2 5.09H17.13C17.17 5.09 17.2 5.11 17.24 5.11C17.29 5.12 17.34 5.12 17.39 5.14C17.44 5.16 17.48 5.19 17.53 5.22C17.56 5.24 17.59 5.25 17.62 5.27C17.63 5.28 17.63 5.29 17.64 5.29C17.68 5.33 17.71 5.37 17.74 5.41C17.77 5.45 17.8 5.48 17.81 5.52C17.83 5.56 17.83 5.6 17.84 5.65C17.85 5.7 17.87 5.75 17.87 5.81C17.87 5.82 17.88 5.83 17.88 5.84V8.77H17.87Z"></path>{" "}
+                    </g>
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-semibold ">Wealth Creation</h3>
+                </div>
+              </div>
+              <div>
+                <p className="text-lg text-justify">
+                With health insurance plans, you pay premiums to secure financial support for medical expenses. These plans ensure that you and your family have access to quality healthcare, covering hospitalization, treatments, and other medical costs, providing peace of mind and financial protection during health-related challenges.
+
+
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="max-w-[400px] min-[150px] px-[15px] py-[10px] border-2 border-blue-300 rounded-2xl bg-[#F0FFFF]">
+            <div className="flex flex-col gap-[15px] items-center justify-center ">
+              <div className="flex gap-[10px] justify-center ">
+                <div>
+                  <svg
+                    className="w-[40px] h-[40px]"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="#89CFF0"
+                  >
+                    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M15 12h-2v-1c0-.551-.449-1-1-1H9.414l.586.586A1 1 0 118.586 12L6.293 9.707a1 1 0 010-1.414L8.586 6A1 1 0 1110 7.414L9.414 8H12c1.654 0 3 1.346 3 3v1zm2-8.5A1.5 1.5 0 0015.5 2h-11A1.5 1.5 0 003 3.5V17a1 1 0 001.3.954c.18-.057.317-.195.439-.338l1.121-1.321 1.349 1.399a1.002 1.002 0 001.415.026l1.364-1.318 1.305 1.305a.997.997 0 001.414 0l1.42-1.42 1.136 1.332c.12.141.257.277.434.334A1 1 0 0017 17V3.5z"
+                        fill="#89CFF0"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-semibold ">Assured Returns</h3>
+                </div>
+              </div>
+              <div>
+                <p className="text-lg text-justify">
+                Health insurance plans offer financial protection against unforeseen medical expenses. By paying regular premiums, you secure coverage for hospitalization, treatments, and other healthcare needs. These plans ensure that you and your family are safeguarded against high medical costs, providing peace of mind and access to quality care when needed.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="max-w-[400px] min-[150px] px-[15px] py-[10px] border-2 border-blue-300 rounded-2xl bg-[#F0FFFF]">
+            <div className="flex flex-col gap-[15px] items-center justify-center ">
+              <div className="flex gap-[10px] justify-center ">
+                <div>
+                  <svg
+                    className="w-[40px] h-[40px] icon"
+                    viewBox="-102.4 -102.4 1228.80 1228.80"
+                    fill="#89CFF0" 
+                    xmlns="http://www.w3.org/2000/svg"
+                  >  
+                      <path d="M384.75581 648.54146c-4.437333-3.445841-39.635302-30.069841-137.289143-36.547047-5.371937-0.446984-10.784508-4.25854-15.555048-7.452445-6.070857-4.039111-12.377397-8.281397-16.97727-13.750857-7.476825-8.923429-15.920762-16.432762-23.015619-26.339555-47.477841-66.186159-94.004825-79.473778-100.961524-82.098794-9.264762-4.469841-44.755302 1.032127-27.704889 24.697905 1.080889 0.178794 54.288254 74.922667 57.742223 80.896 6.111492 10.548825 13.027556 14.864254 19.521016 22.267936 5.932698 6.761651 12.499302 12.978794 18.562031 19.626667 0 0-34.027683-20.146794-42.179047-28.972699-3.632762-3.957841-5.380063-9.622349-8.27327-14.319746a351.963429 351.963429 0 0 0-10.540699-15.904508 543.857778 543.857778 0 0 0-13.954031-19.301587c-6.160254-8.021333-12.55619-15.872-18.903365-23.755174-3.949714-4.908698-8.411429-9.64673-11.67035-14.774858-16.091429-25.421206 2.283683-40.626794 19.772953-42.544761-0.845206-2.925714-8.890921-79.798857-10.296889-92.704508-4.01473-37.059048-7.980698-64.512-29.224635-71.980699-5.477587-1.934222-9.346032-1.284063-13.425778 3.023238-4.827429 5.071238-7.704381 31.98781-9.094095 49.005715 0 0-9.289143 91.314794-7.054222 133.924571 1.194667 22.853079 72.183873 180.06146 92.582603 204.353016 20.382476 24.283429 179.923302 116.248381 179.923301 116.248381 5.331302 4.437333 34.872889 27.184762 34.872889 57.010793v64.747683l171.999492 0.203175 0.146286-59.416381c0.398222-10.979556 2.267429-21.902222 3.584-32.841143 3.74654-12.491175 0.747683-36.100063-0.999619-45.267302-19.976127-89.153016-93.549714-141.815873-101.587301-148.033016zM1012.703492 357.603556c-1.397841-17.026032-4.266667-43.934476-9.094095-49.005715-4.079746-4.307302-7.956317-4.95746-13.433905-3.023238-21.227683 7.476825-25.209905 34.929778-29.216508 71.980699-1.414095 12.905651-9.451683 89.778794-10.305016 92.704508 17.48927 1.917968 35.872508 17.123556 19.772953 42.544761-3.250794 5.136254-7.704381 9.866159-11.662223 14.774858-6.347175 7.883175-12.751238 15.733841-18.911492 23.755174a533.536508 533.536508 0 0 0-13.945904 19.301587 345.185524 345.185524 0 0 0-10.540699 15.904508c-2.885079 4.697397-4.632381 10.353778-8.281397 14.319746-8.159492 8.834032-42.179048 28.972698-42.179047 28.972699 6.06273-6.647873 12.63746-12.865016 18.570158-19.626667 6.49346-7.403683 13.401397-11.719111 19.512889-22.267936 3.470222-5.973333 56.677587-80.717206 57.75035-80.896 17.050413-23.665778-18.448254-29.167746-27.713016-24.697905-6.948571 2.616889-53.475556 15.912635-100.953397 82.098794-7.094857 9.906794-15.546921 17.424254-23.015619 26.339555-4.599873 5.477587-10.91454 9.711746-16.985397 13.750857-4.77054 3.193905-10.183111 7.00546-15.555048 7.452445-97.653841 6.477206-132.843683 33.101206-137.289142 36.547047-8.037587 6.22527-81.603048 58.88-101.587302 148.024889-1.755429 9.167238-4.746159 32.776127-0.999619 45.267302 1.316571 10.938921 3.193905 21.861587 3.584 32.841143l0.146286 59.416381 171.999492-0.203175v-64.747683c0-29.826032 29.541587-52.57346 34.872889-57.010793 0 0 159.532698-91.956825 179.923301-116.248381s91.371683-181.499937 92.574476-204.353016c2.251175-42.601651-7.037968-133.916444-7.037968-133.916444zM615.659683 560.72127c81.594921-76.751238 182.889651-172.056381 196.803047-256.869587 9.768635-59.977143 0.219429-109.413587-28.379428-146.944-28.867048-37.888-72.78527-59.513905-134.282159-66.121143a165.172825 165.172825 0 0 0-16.684699-0.869588c-43.495619 0-87.413841 16.205206-121.116444 43.568762-33.694476-27.363556-77.620825-43.568762-121.108317-43.568762-5.36381 0-10.752 0.276317-16.684699 0.869588-61.496889 6.607238-105.423238 28.233143-134.282159 66.121143-28.606984 37.530413-38.148063 86.966857-28.379428 146.944 13.913397 84.821333 115.208127 180.118349 196.803047 256.869587 0 0 40.699937 40.846222 52.931048 51.330032 9.191619 7.891302 29.135238 23.79581 50.728635 23.795809 21.601524 0 41.545143-15.904508 50.736762-23.795809 12.214857-10.48381 52.914794-51.330032 52.914794-51.330032z m-207.262477-369.615238c-51.98019 0-94.281143 37.61981-94.281143 83.862349a25.396825 25.396825 0 1 1-50.809904 0c0-74.264381 65.080889-134.672254 145.091047-134.672254a25.396825 25.396825 0 1 1 0 50.809905z"></path>
+                    
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-semibold ">Tax Benefits</h3>
+                </div>
+              </div>
+              <div>
+                <p className="text-lg text-justify">
+                Under Section 80D of the Income Tax Act, you can claim a tax deduction on the premiums paid for health insurance policies. For individuals below 60 years of age, the deduction limit is up to ₹25,000, and for senior citizens, it is up to ₹50,000. These deductions provide financial benefits while ensuring your family's health and well-being are secured.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="max-w-[400px] min-[150px] px-[15px] py-[10px] border-2 border-blue-300 rounded-2xl bg-[#F0FFFF]">
+            <div className="flex flex-col gap-[15px] items-center justify-center ">
+              <div className="flex gap-[10px] justify-center ">
+                <div>
+                  <svg
+                    className="w-[40px] h-[40px]"
+                    fill="#89CFF0"
+                    viewBox="0 0 48 48"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      {" "}
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M19 21C19 19.3431 20.3431 18 22 18H26C27.6569 18 29 19.3431 29 21V39C29 40.6569 27.6569 42 26 42H22C20.3431 42 19 40.6569 19 39V21ZM22 20C21.4477 20 21 20.4477 21 21V39C21 39.5523 21.4477 40 22 40H26C26.5523 40 27 39.5523 27 39V21C27 20.4477 26.5523 20 26 20H22Z"
+                        fill="#89CFF0"
+                      ></path>{" "}
+                      <path
+                        d="M6 33C6 31.3431 7.34315 30 9 30H13C14.6569 30 16 31.3431 16 33V39C16 40.6569 14.6569 42 13 42H9C7.34315 42 6 40.6569 6 39V33Z"
+                        fill="#89CFF0"
+                      ></path>{" "}
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M32 9C32 7.34315 33.3431 6 35 6H39C40.6569 6 42 7.34315 42 9V39C42 40.6569 40.6569 42 39 42H35C33.3431 42 32 40.6569 32 39V9ZM35 8C34.4477 8 34 8.44772 34 9V39C34 39.5523 34.4477 40 35 40H39C39.5523 40 40 39.5523 40 39V9C40 8.44772 39.5523 8 39 8H35Z"
+                        fill="#89CFF0"
+                      ></path>{" "}
+                    </g>
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-semibold ">Low Premiums</h3>
+                </div>
+              </div>
+              <div>
+                <p className="text-lg text-justify">
+                Purchasing health insurance at a younger age ensures lower premiums since younger individuals typically have fewer health risks. Delaying the purchase until later in life can result in higher premiums due to increased health risks and medical expenses.e
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="max-w-[400px] min-[150px] px-[15px] py-[10px] border-2 border-blue-300 rounded-2xl bg-[#F0FFFF]">
+            <div className="flex flex-col gap-[15px] items-center justify-center ">
+              <div className="flex gap-[10px] justify-center ">
+                <div>
+                  <svg
+                    className="w-[40px] h-[40px]"
+                    fill="#89CFF0"
+                    viewBox="0 0 48 48"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      {" "}
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M26.2357 13.2804C28.2841 10.9382 39.2383 8 39.2383 8C39.2383 8 37.3763 19.7165 35.7376 21.5903C34.5785 22.9157 31.013 22.1954 29.0255 21.6604C28.153 23.042 27.4153 24.5718 27.0297 26.1677C26.8968 26.718 26.307 26.9913 25.7125 26.778C25.118 26.5647 24.7438 25.9457 24.8767 25.3955C25.3221 23.5519 26.1624 21.8267 27.1278 20.3065C26.2472 18.6031 24.7076 15.0277 26.2357 13.2804ZM13.8889 28H9V39H13.8889V37.0936C14.6799 37.0664 15.5036 37.0451 15.8541 37.0589C17.5304 37.1252 18.7823 37.5156 20.048 37.9104C21.2288 38.2787 22.4218 38.6508 23.9828 38.7669C24.3751 38.796 24.7568 38.8337 25.1269 38.8702L25.127 38.8702C26.4637 39.002 27.6484 39.1188 28.6277 38.7669C29.8783 38.3174 37.0244 34.9016 37.9177 34.0027C38.8109 33.1038 38.3643 30.6767 35.5952 31.1262C34.2288 31.3479 32.645 31.9856 31.2085 32.5638C29.7338 33.1575 28.4144 33.6886 27.6451 33.6431C26.1266 33.5532 22.1069 32.8341 22.1069 32.8341L26.7222 32.8889C26.7222 32.8889 27.3742 32.9229 28.2704 32.2948C29.1666 31.6667 29.9676 29.8677 28.6277 29.8677C27.2878 29.8677 25.8586 29.4183 25.8586 29.4183L20.1417 28.1598C20.1417 28.1598 18.1765 27.8002 17.3726 28.1598C16.8625 28.3879 15.1054 29.0141 13.8889 29.4414V28ZM12.6904 12.4872C12.6904 12.4872 20.8205 14.6908 22.3407 16.4475C23.3976 17.6688 22.4772 20.0807 21.818 21.4375C22.6113 22.7436 23.3066 24.1683 23.7571 25.6532C23.9181 26.1837 23.6227 26.7462 23.0974 26.9096C22.572 27.073 22.0157 26.7753 21.8547 26.2448C21.4876 25.0348 20.9254 23.8494 20.2671 22.7333C18.7914 23.1345 16.1483 23.6733 15.2886 22.6799C14.0724 21.2746 12.6904 12.4872 12.6904 12.4872ZM28.5434 19.9729C28.0902 19.6572 27.9787 19.034 28.2944 18.5808C30.0887 16.0046 31.5146 14.3364 32.5059 13.3022C33.0017 12.785 33.3891 12.4261 33.6597 12.1915C33.7951 12.0741 33.9013 11.9878 33.9772 11.9283C34.0152 11.8985 34.0457 11.8755 34.0684 11.8586L34.0968 11.8378L34.1066 11.8307L34.1105 11.828L34.1121 11.8269L34.1128 11.8263C34.1132 11.8261 34.1135 11.8258 34.6843 12.6384L34.1135 11.8258C34.5655 11.5084 35.1892 11.6174 35.5066 12.0693C35.823 12.5198 35.7158 13.1408 35.2677 13.4592L35.2608 13.4643C35.252 13.4708 35.2352 13.4835 35.2106 13.5028C35.1613 13.5413 35.0808 13.6065 34.9699 13.7026C34.7481 13.8948 34.4052 14.211 33.9497 14.6862C33.0386 15.6367 31.6777 17.2226 29.9355 19.7239C29.6198 20.177 28.9966 20.2885 28.5434 19.9729ZM20.7147 20.0796C21.0285 20.5348 20.9173 21.1614 20.4662 21.4791C20.0152 21.7967 19.3952 21.6852 19.0814 21.2299C18.1517 19.8811 17.431 19.0339 16.9567 18.5339C16.7197 18.284 16.5444 18.1211 16.4356 18.0258C16.3813 17.9781 16.3435 17.9474 16.323 17.9311C16.3137 17.9238 16.3079 17.9194 16.3057 17.9177C15.863 17.5971 15.7582 16.9749 16.0726 16.5232C16.3889 16.0688 17.0095 15.959 17.4588 16.2779L16.8886 17.097C17.4588 16.2779 17.4591 16.2781 17.4595 16.2784L17.4602 16.2789L17.4617 16.28L17.465 16.2823L17.4727 16.2879L17.4928 16.3028C17.5083 16.3144 17.5278 16.3294 17.5514 16.3481C17.5985 16.3853 17.6617 16.4373 17.7403 16.5062C17.8977 16.6441 18.1171 16.8498 18.3941 17.1419C18.948 17.7258 19.7332 18.6556 20.7147 20.0796Z"
+                      ></path>{" "}
+                    </g>
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-semibold ">
+                    Long Term Coverage
+                  </h3>
+                </div>
+              </div>
+              <div>
+                <p className="text-lg text-justify">
+                Some health insurance plans offer lifelong coverage, ensuring that you and your family are protected for your entire lifetime. These plans provide financial security against medical expenses, enabling access to quality healthcare whenever needed.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
